@@ -1,0 +1,43 @@
+# 🌐 Phase 1: API Fundamentals
+
+## 🔍 What is an API?
+
+### 📦 Definition
+**API** stands for **Application Programming Interface**.  
+It allows two software systems to communicate with each other.
+
+---
+
+### 🍔 Real-Life Analogy: Restaurant
+
+| Component      | Real-Life Equivalent        |
+|----------------|------------------------------|
+| You            | Client (App/User)            |
+| Waiter         | API                          |
+| Kitchen        | Server (Database/System)     |
+| Menu           | API Documentation            |
+| Order          | Request                      |
+| Food Delivered | Response                     |
+
+🧠 Just like a waiter takes your order and brings food from the kitchen, an API takes your request and returns data from a system. You don’t directly access the kitchen/server.
+
+---
+
+## ⚙️ Common API Concepts
+
+| Term            | Description |
+|------------------|-------------|
+| **Endpoint**     | A specific URL where the API lives (e.g. `/getUser`) |
+| **Method**       | Action to take: `GET`, `POST`, `PUT`, `DELETE` |
+| **Request**      | What you send to the API |
+| **Response**     | What the API sends back |
+| **Headers**      | Metadata (e.g., auth token, content type) |
+| **Body**         | Data you send in `POST/PUT` (usually JSON) |
+| **Status Code**  | Result of the API call (`200 OK`, `400 Bad Request`, etc.) |
+
+---
+
+## 🧪 Example API Request
+
+**GET Request Example:**
+
